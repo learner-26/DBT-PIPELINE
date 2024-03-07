@@ -33,4 +33,4 @@ SELECT Rank1 as Rank,
        CompanyType,
        Footnote,
        MarketCap_Updated as MarketCapUpdated
-FROM {{ref ('FORTUNE1000_COMPANIES') }}
+FROM {{ref ('FORTUNE2023.FORTUNE1000_COMPANIES') }}
