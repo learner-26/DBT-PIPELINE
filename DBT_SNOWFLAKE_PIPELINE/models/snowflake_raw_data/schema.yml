@@ -6,6 +6,6 @@ sources:
     database: SNOW_DBT  # Specify the database if needed
     schema: FORTUNE_2023  # Schema where the raw data resides
     tables:
-      - name: FORTUNE1000_COMPANIES
+      - name: FORTUNE1000_COMPANIESa
         tests:
           - not_null
