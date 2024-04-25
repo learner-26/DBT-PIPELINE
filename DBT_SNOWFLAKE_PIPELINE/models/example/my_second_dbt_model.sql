@@ -3,5 +3,5 @@
 
 select *
 from {{ source('fortune1000_data', 'FORTUNE1000_COMPANIES') }}
-order by id desc 
-limit 100
+order by RANK1  
+limit 200
