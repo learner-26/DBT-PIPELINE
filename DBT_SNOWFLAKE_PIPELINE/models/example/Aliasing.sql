@@ -31,5 +31,9 @@ SELECT Rank1 as Rank,
        CompanyType,
        Footnote,
        MarketCap_Updated as MarketCapUpdated
+<<<<<<< HEAD:DBT_SNOWFLAKE_PIPELINE/models/example/Aliasing.sql
        from 
        {{ source('fortune1000_data', 'FORTUNE1000_COMPANIES') }}
+=======
+FROM {{ref ('FORTUNE2023.FORTUNE1000_COMPANIES') }}
+>>>>>>> 2684745c17bb716104a44be5a7b243c90aeebf21:DBT_SNOWFLAKE_PIPELINE/models/transformed_model.sql
