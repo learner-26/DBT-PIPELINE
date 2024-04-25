@@ -1,5 +1,4 @@
 
-#renaming columns 
 
 -- Rename columns for better readability
 SELECT Rank1 as Rank,
@@ -33,4 +32,4 @@ SELECT Rank1 as Rank,
        Footnote,
        MarketCap_Updated as MarketCapUpdated
        from 
-       {{ source('fortune1000_data', 'FORTUNE1000_COMPANIES'}};
+       {{ source('fortune1000_data', 'FORTUNE1000_COMPANIES') }}
