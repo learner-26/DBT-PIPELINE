@@ -34,4 +34,4 @@ SELECT Rank1 as Rank,
        Footnote,
        MarketCap_Updated as MarketCapUpdated
        from 
-       {{ fortune1000_data }}
+       {{ fortune1000_data }};

@@ -35,3 +35,6 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+    # Configuration for 'snowflake_raw_data'
+    snowflake_raw_data:   # This should be indented at the same level as `+materialized`
+      +materialized: view  # This should also be indented at the same level as 'snowflake_raw_data'

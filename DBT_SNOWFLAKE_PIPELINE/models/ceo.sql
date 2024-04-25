@@ -1,6 +1,6 @@
 with cte as(
 
-    select profitable from {{'FORTUNE1000_COMPANIES'}}
+    select profitable from {{ fortune1000_data }}
 )
 
 select * from cte;

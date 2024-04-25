@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: fortune100_data
+  - name: fortune1000_data
     description: "Schema containing fortune companies data"
     database: SNOW_DBT  # Specify the database if needed
     schema: FORTUNE_2023  # Schema where the raw data resides
